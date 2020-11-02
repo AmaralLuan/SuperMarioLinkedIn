@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'PoetsenOne';
+}
+
+/*- VARIABLES -*/
+
+:root {
+    --main-blue: #2283fd;
+    --light-grey: #eff3f7;
+    --dark-grey: #45453e;
+    --white: #ffffff;
+    --gold: #eecf18;
+    --brown: #c3760a;
+    --red: #f92322;
+    --medium-grey: #959ba2;
+    --gray: #cacaca;
+}
+
+@font-face {
+    font-family: 'PoetsenOne';
+    src: url('../../fonts/PoetsenOne.ttf');
+}
